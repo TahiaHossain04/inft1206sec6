@@ -107,17 +107,63 @@ a:visited {
   color: red
 }
 
-a:focus, a:hover{
-  text-decoration: blue;
+a:hover{
+  color: blue;
 }
 
 a:active {
   color: yellow;
-  text-decoration: dotted underline overline;
+  text-decoration: solid  underline;
 }
 
 a {
   outline-width: 5rem;
 }
 
+ul, ol{
+  margin: 5rem 0;
+}
 
+ul{
+  list-style-type: bold circle;
+}
+
+ol{
+  list-style-type:lower-alpha
+}
+
+a[href*="http"] {
+  background: url(external-link-52.png) no-repeat 100% 0;
+  background-size: 20px 20px;
+  padding-right: 25px;
+}
+
+nav ul{
+  margin-bottom: 10rem;
+  margin-top: 10rem;
+}
+
+nav li{
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+  list-style-type: none;
+}
+
+nav li a {
+  border: 2px solid peru;
+  width: 100%;
+  font-size: 2rem;
+  text-align: center;
+  display: inline-block;
+  text-decoration: underline;
+  line-height: 3;
+}
+
+nav li a:focus, nav li a:hover {
+  color: pink
+}
+
+nav li a:active{
+  color: burlywood;
+  text-decoration: solid underline;
+}
