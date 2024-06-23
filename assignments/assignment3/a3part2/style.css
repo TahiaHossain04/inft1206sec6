@@ -9,14 +9,43 @@
 
 html{
   font-family: sans-serif;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.box{
+.styled-box {
   width: 200px;
   height: 200px;
   margin: auto;
+  line-height: 9;
+  align-items: center;
+  justify-content: center;
+  display: flex;
   text-align: center;
   font-size: 1.1rem; /* The default browser font size is 16px.
   So I chose 1.1rem because 1.1*16px = 17.6px */
-  
+  background-color: red;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+  border-radius: 15px;
+  border: 2px solid #990000;
+  background-color: red;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  border-radius: 10px;
+  border: 1px solid #990000;
+  background-image:
+  linear-gradient(
+    to bottom right,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.2) 30%,
+    rgba(0, 0, 0, 0.2) 100%
+  );
+  box-shadow:
+  2px 2px 5px black
+  inset 2px 2px 3px rgba(255, 255, 255, 0.5),
+  inset -2px -2px 3px rgba(0, 0, 0, 0.5);
 }
