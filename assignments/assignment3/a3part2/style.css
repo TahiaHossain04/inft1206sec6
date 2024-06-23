@@ -11,3 +11,12 @@ html{
   font-family: sans-serif;
 }
 
+.box{
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  text-align: center;
+  font-size: 1.1rem; /* The default browser font size is 16px.
+  So I chose 1.1rem because 1.1*16px = 17.6px */
+  
+}
