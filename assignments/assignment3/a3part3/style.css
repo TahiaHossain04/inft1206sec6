@@ -94,3 +94,30 @@ p, li{
   letter-spacing: 0.2px;
   word-spacing: 1px
 }
+
+section h2 + p{
+  text-indent: 30px;
+}
+
+a:link {
+  color: green
+}
+
+a:visited {
+  color: red
+}
+
+a:focus, a:hover{
+  text-decoration: blue;
+}
+
+a:active {
+  color: yellow;
+  text-decoration: dotted underline overline;
+}
+
+a {
+  outline-width: 5rem;
+}
+
+
