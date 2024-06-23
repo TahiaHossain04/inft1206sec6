@@ -51,3 +51,30 @@ header, footer {
 }
 
 /* WRITE YOUR CODE BELOW HERE */
+@font-face {
+  font-family: 'aleo';
+  src: url(fonts/aleo-regular-webfont.eot);
+  src: url('fonts/aleo-regular-webfont.woff2') format('woff2'),
+       url('fonts/aleo-regular-webfont.woff') format('woff'),
+       url('fonts/aleo-regular-webfont.ttf') format('truetype'),
+       url('fonts/aleo-regular-webfont.svg') format('svg');
+}
+
+@font-face {
+  font-family: 'antic';
+  src: url(fonts/anticsans-regular-webfont.eot);
+  src: url('fonts/aleo-regular-webfont.woff2') format('woff2'),
+       url('fonts/aleo-regular-webfont.woff') format('woff'),
+       url('fonts/anticsans-regular-webfont.ttf') format('truetype'),
+       url('fonts/anticsans-regular-webfont.svg') format('svg');
+}
+
+html{
+  font-family: 'antic', sans-serif;
+  font-size: 10px;
+}
+
+h1, h2{
+  font-family: 'aleo', Times;
+  letter-spacing: 1.5px;
+}
