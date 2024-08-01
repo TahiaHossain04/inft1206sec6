@@ -1,3 +1,11 @@
+/*
+Name: Tahia Hossain
+File: main.js
+Date: 30th July 2024
+Raw JavaScrpt text with modifications and changes according to instructions.
+*/
+
+
 // 1
 const customName = document.getElementById('customname');
 const randomize = document.querySelector('.randomize');
