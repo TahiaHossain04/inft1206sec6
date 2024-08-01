@@ -1,3 +1,10 @@
+/*
+Name         : Tahia Hossain
+Date         : 31st July 2024
+File         : main.js
+Description  : Raw JavaScript text copy pasted here and did modifications.
+*/
+
 // set up canvas
 
 const canvas = document.querySelector("canvas");
