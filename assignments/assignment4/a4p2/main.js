@@ -13,6 +13,15 @@ const overlay = document.querySelector('.overlay');
 
 /* Declaring the array of image filenames */
 
+const imageList = ['pic1.jpg', `pic2.jpg`, `pic3.jpg`, `pic4.jpg`, `pic5.jpg`];
+
+const alternateTextList = [
+    'Closer look at the human eye',
+    'Wave-like Rock',
+    'Purple and White flowers',
+    'Wall with Pharoah painting',
+    'Butterfly on a leaf']
+
 
 /* Declaring the alternative text for each image file */
 
