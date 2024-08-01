@@ -22,8 +22,18 @@ const alternateTextList = [
     'Wall with Pharoah painting',
     'Butterfly on a leaf']
 
-
 /* Declaring the alternative text for each image file */
+
+for (const image of imageList) {
+    const newImage = document.createElement('img');
+    newImage.setAttribute('src', `images/${image}`);
+    newImage.setAttribute('alt', alternateTextList[image]);
+    thumbBar.appendChild(newImage);
+    newImage.addEventListener('click', e => {
+      displayedImage.src = e.target.src;
+      displayedImage.alt = e.target.alt;
+    });
+  }
 
 /* Looping through images */
 
