@@ -3,6 +3,8 @@ Name         : Tahia Hossain
 Date         : 31st July 2024
 File         : main.js
 Description  : Raw JavaScript text copy pasted here and did modifications.
+THIS IS PART 4 OF THE ASSIGNMENT 4, I MISTAKENLY NAMED IT a4p3 instead of a4p4 and
+that's how I ended up committing it, that's why I did not change the name either.
 */
 
 // set up canvas
