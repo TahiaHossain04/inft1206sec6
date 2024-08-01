@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--The JS file is linked at the top. The browsers normally read the code from top to 
+    bottom. So the following code would not execute except for the in line event handling. 
+    So we have to ask the browser to read the whole code before loading everything. We use
+     the following code for that => window.onload = function() { -->
+    <script src="./js/w11ex2.js"></script>
+    <title>Example 2</title>
+</head>
+<body>
+    <h1 
+    onmouseover="this.style.color='red'"
+    onmouseout="this.style.color='black'">Week 11: Event Handling</h1>
+    <!--The above 2 lines are not recommended to do as it combines JS code with HMTL code-->
+    <!--On click console log should only have one qutoation mark because double quotes are only used for attributes.-->
+    <input type="button" 
+           value="Event Handling Attribute"
+           onclick="console.log('Event Handling Attribute - In Line Event Handling')">
+    <input id="btn2" 
+           type="button" 
+           value="Event Handler Property">
+    <input id="btn3" 
+    type="button" 
+    value="Event Handler using Event Listener">
+    <!--Adding script at the end of the file is bad practice. Move the script tag to the <head> element.-->  
+</body>
+</html>

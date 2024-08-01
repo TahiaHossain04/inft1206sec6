@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example 3</title>
+</head>
+<body>
+    <h1>Week 9: Example 3</h1>
+    <h2>What is your name?</h2>
+
+    <!--We need to have a id number for everytime we use a different type of
+    writing tag? Like one for input text, one for input button and one for only h2?
+    So we can reference them separately at different times in the JS??-->
+    <!--To get the input from the user we use the text field instead of the 
+    dialogue pop up box that you get if you use 'input' tag. Doing this will
+    directly show the input box on the screen (not as a pop up or external screen)
+    that will be right underneath the line that is in h2 tag.-->
+    <input id="first-name" type="text">
+    <!--Add a next to the text field that is called GO. We are adding id to these so we
+    can reference them in the java script file. otherwise, it would not have been necessary.
+    It's likw how we use class in html so we can style that particular part of class in CSS-->
+    <input id="btn" type="button" value="GO">
+    <h2 id="output"></h2> <!--We cannot call a function without declaring it 
+    at the top first. So declare it in the JS file always before calling it as 
+    parameter in the html file-->
+    <script src="./js/w9-ex3.js"></script>
+
+</body>
+</html>

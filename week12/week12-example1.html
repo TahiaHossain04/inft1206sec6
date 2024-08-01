@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 12</title>
+</head>
+<body>
+    <h1>Week 12: Introduction to Forms</h1>
+    <form action="https://httpbin.org/get" method="get"> <!--use get or post, sensitive data- use get-->
+
+        <fieldset> <!--To put the info inside a box-->
+            <legend>Personal Information</legend> <!--Name of the box we made-->
+            <div>
+                <label for="fname">First Name</label> <!--clicking on the label will auto focus on the box-->
+                <input type = "text" id="frame" name="fname" title="Enter First Name"> <!--Here, the name you input in the box will append to the URL, why??-->
+            </div>
+    
+            <div>
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lname" size="15"> <!--The default size of the text field is 20 characters, we can change it by usinf size here-->
+            </div>
+    
+            <div>
+                <input type="submit">
+                <input type="reset">
+            </div>
+    
+        </fieldset>
+        <div>
+            <label for="pass">Password</label>
+            <input type="password" id="oass" name="pass">
+        </div>
+
+        <div>
+            <label for = "assignment">Upload your assignment</label>
+            <input type="file" id="assignment"> <!--you can submit files, is that why it says file type?-->
+        </div>
+
+        <div>
+            <p>What are your hobbies and interests?</p> <!--How to create checkboxes-->
+            <input type="checkbox" id="interests1" name="interest" value="sports">
+            <label for="interests1">Sports</label>
+            <input type="checkbox" id="interests2" name="interest" value="music">
+            <label for="interests1">Music</label>
+        </div>
+
+        <div>
+            <p>Which OS do you prefer?</p> <!--Create radio buttons, choose one or the other?-->
+            <input type="radio" name="OS" id="OS1" value="windows" checked> <label for="OS2"></label>
+            <input type="radio" name="oOS" id="OS2" value="OS2"> <label for="OS2"></label>
+        </div>
+
+        <div>
+            <label for="course">What is your current course?</label>
+            <input type="text" name="course" id="course" list="list1">
+            <datalist if="list1">
+                <option value="inft1206">INFT 1206</option>
+                <option value="inft1200">INFT 1200</option>
+            </datalist>
+        </div>
+
+        <div>
+            <label for="drop/add">Do you want to add, drop or edit courses?</label>
+            <select name="drop/add" id="drop/add">
+                <option value="add">Add Courses</option>
+                <option value="drop">Drop Courses</option>
+                <option value="edit">Edit Courses</option>
+                <option>Print Schedule</option>
+            </select>
+        </div>
+
+    </form>
+</body>
+</html>
