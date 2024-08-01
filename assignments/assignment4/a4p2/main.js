@@ -1,3 +1,9 @@
+/*
+Name: Tahia Hossain.
+File: main.js
+Date: 30th July 2024
+Raw JavaScrpt text with modifications and changes according to instructions.
+*/
 
 const displayedImage = document.querySelector('.displayed-img');
 const thumbBar = document.querySelector('.thumb-bar');
