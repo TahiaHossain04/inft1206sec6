@@ -70,6 +70,7 @@ class Ball {
   }
 }
 
+// 4
 const balls = [];
 
 while (balls.length < 25) {
@@ -88,6 +89,7 @@ while (balls.length < 25) {
   balls.push(ball);
 }
 
+// 5
 function loop() {
   ctx.fillStyle = "rgb(0 0 0 / 25%)";
   ctx.fillRect(0, 0, width, height);
@@ -100,3 +102,5 @@ function loop() {
   requestAnimationFrame(loop);
 }
 
+// 6
+loop();
