@@ -32,8 +32,8 @@
       </ul>
 
       <form class="search">
-        <input type="search" name="q" placeholder="Search query">
-        <input type="submit" value="Go!">
+        <input type="search" name="q" placeholder="Search query" aria-label="To Search for something">
+        <input type="submit" value="Go!"> <!--i added label for submit voluntarily-->
       </form>
     </div>
 
@@ -91,16 +91,16 @@
         <h3>Habitats and Eating habits</h3>
 
         <p>
-            Wild bears eat a variety of meat, fish, fruit, nuts, and other natually growing ingredients. In general they will hunt for food themselves in woodland or rivers, but at a push they will track down their sustenance from farms or country houses. They tend to live in relative isolation, in caves, tents, or cottages.
+            Wild bears eat a variety of meat, fish, fruit, nuts, and other natually growing ingredients. In general they will hunt for food themselves in woodland or rivers, but at a push they will track down their sustenance from farms or country houses. They tend to live in relative isolation, in caves, tents, or cottages. Below is the photo of <span id = "wild-bear"> a wild bear that is walking around in the water.</span>
         </p>
 
-        <img src="media/wild-bear.jpg">
+        <img src="media/wild-bear.jpg" aria-labelledby="wild bear">
 
         <p>
-            Urban (gentrified) bears on the other hand have largely abandoned the old ways. They will hunt other urban creatures if necessary (including other predators like rats and foxes), but prefer to scavenge from readily available urban food outlets like dumpsters, bins, and fast food joints. When food has proven scarce, urban bears have even been known to break into people's kitchens and steal essentials like baked beans, ready meals, and microwave ovens.
+            Urban (gentrified) bears on the other hand have largely abandoned the old ways. They will hunt other urban creatures if necessary (including other predators like rats and foxes), but prefer to scavenge from readily available urban food outlets like dumpsters, bins, and fast food joints. When food has proven scarce, urban bears have even been known to break into people's kitchens and steal essentials like baked beans, ready meals, and microwave ovens. The photo below shows <span id="urban-bear">an urban bear in it's cage waiting for food</span>
         </p>
        
-        <img src="media/urban-bear.jpg">
+        <img src="media/urban-bear.jpg" aria-labelledby="urban bear">
 
         <p>
             Urban bears will sleep anywhere they can, from bus shelters and parks, to the toilets in McDonalds, to their own apartment.
@@ -140,11 +140,11 @@
 
             <form class="comment-form">
               <div class="flex-pair">
-                Your name:
+                <label for= "your name">Your name:</label>
                 <input type="text" name="name" id="name" placeholder="Enter your name">
               </div>
               <div class="flex-pair">
-                Your comment:
+                <label for = "your comment">Your comment:</label>
                 <input type="text" name="comment" id="comment" placeholder="Enter your comment">
               </div>
               <div>
