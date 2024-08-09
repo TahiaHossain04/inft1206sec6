@@ -216,11 +216,6 @@ html, body {
     flex: 6;
   }
   
-  .show-hide {   /* ** */
-    text-align: center;
-    width: 150px;
-  }
-  
   .comment-form input, .comment-form label, .show-hide {
     font-size: 1.6rem;
     line-height: 32px;
