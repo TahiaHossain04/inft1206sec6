@@ -1,3 +1,8 @@
+// Name: Tahia Hossain
+// File: main.js
+// Date: 9th August 2024
+// Raw JavaScript text copy-pasted here.
+
 // functionality for showing/hiding the comments section
 
 const showHideBtn = document.querySelector('.show-hide');
